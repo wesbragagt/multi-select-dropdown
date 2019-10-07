@@ -49,7 +49,7 @@ class App extends React.Component {
   };
   handleSubmit = event => {
     event.preventDefault();
-    console.log(this.state);
+    console.log("SUBMITED SELECTION: ", this.state);
   };
   render() {
     return (
